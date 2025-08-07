@@ -1,7 +1,7 @@
 {
   "name": "aavas-mysql-seed",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "seed.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mysql2": "^3.14.3"
+    "mysql2": "^3.14.3",
+    "sequelize": "^6.37.7"
   }
 }
