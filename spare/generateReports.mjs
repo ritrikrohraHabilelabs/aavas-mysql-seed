@@ -1,5 +1,5 @@
-import { sequelize } from './config.mjs';
-import { Meeting } from './models/index.mjs';
+import { sequelize } from '../config.mjs';
+import { Meeting } from '../models/index.mjs';
 import { getMeetingReport } from './meetingReport.mjs';
 
 async function generateAllReports() {

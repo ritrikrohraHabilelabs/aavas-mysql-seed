@@ -1,5 +1,5 @@
-import { sequelize } from './config.mjs';
-import { Meeting } from './models/index.mjs';
+import { sequelize } from '../config.mjs';
+import { Meeting } from '../models/index.mjs';
 import { BedrockRuntimeClient, InvokeModelCommand } from "@aws-sdk/client-bedrock-runtime";
 
 const client = new BedrockRuntimeClient({ region: "us-east-1" });

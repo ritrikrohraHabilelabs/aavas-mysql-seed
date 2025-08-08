@@ -1,8 +1,8 @@
-import { sequelize } from './config.mjs';
+import { sequelize } from '../config.mjs';
 import {
   Meeting, Bank, Branch, User, Contact, MeetingMember,
   MeetingProposal, Product, ProposalDocument, MeetingAction
-} from './models/index.mjs';
+} from '../models/index.mjs';
 
 async function getMeetingReport(meetingId) {
   const meeting = await Meeting.findByPk(meetingId, {
